@@ -1,0 +1,13 @@
+prefix=/Users/johnnycheung/miniconda3/envs/xgb_mpc
+exec_prefix=/Users/johnnycheung/miniconda3/envs/xgb_mpc
+libdir=/Users/johnnycheung/miniconda3/envs/xgb_mpc/lib
+sharedlibdir=/Users/johnnycheung/miniconda3/envs/xgb_mpc/lib
+includedir=/Users/johnnycheung/miniconda3/envs/xgb_mpc/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
